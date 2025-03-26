@@ -10,7 +10,6 @@ import static workshop.springb.starter.aop.AdviceConstans.AFTER;
 
 
 @Aspect
-@Component
 @Profile(AFTER)
 public class AfterAspect {
 

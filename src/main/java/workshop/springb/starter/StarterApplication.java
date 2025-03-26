@@ -13,3 +13,12 @@ public class StarterApplication {
     }
 
 }
+
+/*
+
+    TODO Uruchom testy
+
+    Część testów nie przejdzie.
+
+    Znajdź bug'i w kodzie, cel - ysztskie testy na zielono (nie zmianiaj testów ;) )
+ */

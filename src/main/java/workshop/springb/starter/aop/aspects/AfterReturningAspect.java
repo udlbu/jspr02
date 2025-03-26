@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 
 import static workshop.springb.starter.aop.AdviceConstans.AFTER_RETURNING;
 
-@Aspect
 @Component
 @Profile(AFTER_RETURNING)
 public class AfterReturningAspect {

@@ -15,7 +15,7 @@ public class AppPointcuts {
     }
 
 
-    @Pointcut("execution(* workshop.springb.starter.service..*.*(..))")
+    @Pointcut("execution(* workshop.springb.starter.aop.pointcuts..*.*(..))")
     public void methodsInServicePackageAndSubpackages() {
     }
 
