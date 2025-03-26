@@ -15,10 +15,6 @@ public class AppPointcuts {
     }
 
 
-    @Pointcut("execution(* workshop.springb.starter.service..*.*(..))")
-    public void methodsInServicePackageAndSubpackages() {
-    }
-
     @Pointcut("args(boolean)")
     public void methodsThatTakeBoolean() {
     }
@@ -30,10 +26,6 @@ public class AppPointcuts {
 
     @Pointcut("@within(workshop.springb.starter.aop.anotations.Loggable)")
     public void methodsInClassesAnnotatedWithLoggable() {
-    }
-
-    @Pointcut("within(workshop.springb.starter.service.subservice.GreetSubservice)")
-    public void methodsInAClassGreetSubservice() {
     }
 
 }
