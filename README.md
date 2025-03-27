@@ -107,20 +107,6 @@ public class CustomListener implements ApplicationListener<CustomEvent> {
 }
 ```
 
-
-```java
-@Component
-public class CustomPublisher {
-    @Autowired
-    private ApplicationEventPublisher applicationEventPublisher;
-
-    public void publishCustomEvent(String eventMsg) {
-        System.out.println("Publishing event from thread: " + Thread.currentThread().getName());
-        applicationEventPublisher.publishEvent(new CustomEvent(this, eventMsg));
-    }
-}
-```
-
 --
 
 ## Jak asynchroniczna konfiguracja wpływa na eventy w Springu
